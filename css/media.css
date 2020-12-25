@@ -1,0 +1,79 @@
+@media (min-width: 768px ) and (max-width: 1023px) {
+    #navbar a {
+        padding: 10px 8px;
+    }
+    
+    .plan {
+        margin: 0 -20px;
+    }
+
+    .plan-inner {
+        width: 220px;
+        height: 380px;
+    }
+}
+
+/* Smartphones */
+@media (max-width: 500px) {
+    .hero .content h1 {
+        font-size: 38px;
+    }
+
+    .hero .content p {
+        font-size: 20px;
+    }
+
+    #navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    #navbar a {
+        padding: 10px 10px;
+        margin: 10px 3px;
+    }
+
+    /* Services */
+    .services-box {
+        grid-template-columns: 1fr;
+    }
+
+    /*Pricing */
+    #price {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan {
+        margin-bottom: 2rem;
+    }
+
+    .plan:last-child {
+        margin-bottom: .3rem;
+    }
+
+    /* About */
+    .about-info {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .about-info p {
+        text-align: justify;
+    }
+
+    .about-img {
+        margin: 0 auto;
+    }
+
+    /* Contact */
+    .text-fields {
+        grid-template-areas: 
+            'name'
+            'subject'
+            'email'
+            'phone'
+            'message';
+    }
+}
