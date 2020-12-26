@@ -452,8 +452,12 @@ img {
     padding: 0.5rem 1rem;
 }
 
-.captcha > div {
+.captcha {
     margin: 1rem auto;
+}
+
+.g-recaptcha div:first-child {
+    margin: auto;
 }
 
 /* Buttons */
