@@ -452,7 +452,7 @@ img {
     padding: 0.5rem 1rem;
 }
 
-.captcha {
+.captcha div:first-child {
     margin: 1rem auto;
 }
 
