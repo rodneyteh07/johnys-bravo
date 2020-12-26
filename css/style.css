@@ -456,10 +456,6 @@ img {
     margin: 1rem auto;
 }
 
-.g-recaptcha div:first-child {
-    margin: auto;
-}
-
 /* Buttons */
 .btn-dark {
     color: #333;
