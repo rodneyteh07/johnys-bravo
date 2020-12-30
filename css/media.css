@@ -73,6 +73,10 @@
         width: 200px;
     }
 
+    .about-bio {
+        margin: 10px 30px;
+    }
+
     /* Contact */
     .text-fields {
         grid-template-areas: 
